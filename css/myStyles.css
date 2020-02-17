@@ -1,0 +1,20 @@
+h1 {
+  font-family: monospace;
+  text-align: left;
+}
+
+h2 {
+  font-family: monospace;
+}
+
+p {
+  font-family: monospace;
+}
+
+body {
+  background-color: #fffdd0;
+}
+
+a {
+  color: red;
+}
