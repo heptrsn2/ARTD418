@@ -1,0 +1,18 @@
+@font-face {
+  src: url('fonts/Canela-Thin.ttf');
+  font-family: 'canela';
+}
+
+h1 {
+  font-family: canela;
+  font-size: 200px;
+  color: #EF3E4B;
+}
+
+body {
+  background-color: #EF3E4B;
+}
+
+rect {
+  height: 100px;
+}

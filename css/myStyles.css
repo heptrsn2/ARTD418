@@ -1,20 +1,35 @@
-h1 {
-  font-family: monospace;
-  text-align: left;
+div {
+  padding: 5px;
 }
-
-h2 {
-  font-family: monospace;
-}
-
-p {
-  font-family: monospace;
+@font-face {
+  src: url('fonts/Canela-Thin.ttf');
+  font-family: 'canela';
 }
 
 body {
-  background-color: #fffdd0;
+  background-color: #F4A4BD;
+}
+
+h1 {
+  font-family: canela;
+}
+
+h2 {
+  font-family: canela;
+}
+
+h3 {
+  font-family: canela;
+}
+
+p {
+  font-family: canela;
 }
 
 a {
-  color: red;
+  color: #000000;
+}
+
+a:link {
+  text-decoration: none;
 }
