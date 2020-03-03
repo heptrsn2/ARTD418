@@ -12,14 +12,19 @@ body {
 
 h1 {
   font-family: canela;
+  color:#FFFFFF;
+  font-size: 100px;
 }
 
 h2 {
   font-family: canela;
+  color:#FFFFFF;
 }
 
 h3 {
   font-family: canela;
+  color:#FFFFFF;
+  font-size: 60px;
 }
 
 p {
@@ -27,9 +32,9 @@ p {
 }
 
 a {
-  color: #000000;
+  color: #FFFFFF;
 }
 
 a:link {
-  text-decoration: none;
+  text-decoration: underline;
 }
