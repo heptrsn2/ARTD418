@@ -7,13 +7,14 @@ div {
 }
 
 body {
-  background-color: #F4A4BD;
+  background-color: #F7F0E7;
 }
 
 h1 {
   font-family: canela;
-  color:#FFFFFF;
+  color:#4599D6;
   font-size: 100px;
+  position: center;
 }
 
 h2 {
@@ -29,12 +30,42 @@ h3 {
 
 p {
   font-family: canela;
+  color: #FF4C00;
 }
 
 a {
-  color: #FFFFFF;
+  color: #FF4C00;
+  text-decoration: none;
 }
 
 a:link {
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF4C00;
+}
+
+a {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  z-index: 1;
+}
+
+a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: .07em;
+  height: .1em;
+  width: 100%;
+  background: #F8C800;
+  z-index: -1;
+  transition: height .25s cubic-bezier(.6,0,.4,1);
+}
+
+a:hover::after {
+  height: 1.5em;
 }

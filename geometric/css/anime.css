@@ -15,4 +15,14 @@ rect {
 
 body {
   background-color: #EF3E4B;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.box1 {
+  position: center;
+  max-width: 100%;
+  height: auto;
 }

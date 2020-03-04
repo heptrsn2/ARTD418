@@ -10,7 +10,6 @@ anime({
     {translateY: 1000, translateY: 800, scale: 1}
   ],
   duration: 8000,
-  easing: 'easeOutElastic(1, .8)',
-  loop: true,
-  borderRadius: ['0%', '50%']
+  easing: 'cubicBezier(.5, .05, .1, .3)',
+  loop: true
 });
