@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+
+<head>
+
+  <!-- libraries -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="libs/anime.min.js" type="text/javascript"></script>
+  <script src="libs/p5.js" type="text/javascript"></script>
+  <script src="libs/p5.dom.js" type="text/javascript"></script>
+
+  <!-- css style -->
+  <link rel="stylesheet" href="css/anime.css">
+
+</head>
+
+<body>
+    <div class="row">
+      <div class="col-sm-3"></div>
+      <div class="col-sm-7">
+      <p>Bright color operates like a stimulant, a shot of caffeine for the eyes.</p>
+    </div>
+    </div>
+    <div class="animation-wrapper">
+    <div class="row">
+    <div class="layered-animations">
+      <svg class="large shape" viewBox="0 0 100 100">
+        <defs>
+          <linearGradient id="circleGradient" x1="0%" x2="100%" y1="20%" y2="80%">
+            <stop stop-color="#EF3E4B" offset="0%"/>
+            <stop stop-color="#D80E0E" offset="100%"/>
+          </linearGradient>
+        </defs>
+        <circle cx="48" cy="48" r="28" fill-rule="evenodd" stroke-linecap="square" fill="url(#circleGradient)"/>
+      </svg>
+      <svg class="small shape color-red" viewBox="0 0 100 100">
+        <polygon fill-rule="evenodd" points="48 17.28 86.4 80.11584 9.6 80.11584" stroke-linecap="square"/>
+      </svg>
+      <svg class="large shape" viewBox="0 0 100 100">
+        <defs>
+          <linearGradient id="triangleGradient" x1="0%" x2="100%" y1="20%" y2="80%">
+            <stop stop-color="#EF3E4B" offset="0%"/>
+            <stop stop-color="#D80E0E" offset="100%"/>
+          </linearGradient>
+        </defs>
+        <polygon fill-rule="evenodd" points="48 17.28 86.4 80.11584 9.6 80.11584" stroke-linecap="square" fill="url(#triangleGradient)"/>
+      </svg>
+      <svg class="x-small shape" viewBox="0 0 100 100">
+        <circle cx="48" cy="48" r="32" fill-rule="evenodd" stroke-linecap="square"/>
+      </svg>
+    </div>
+    </div>
+  </div>
+
+
+    <!-- END SVG paths -->
+
+    <!-- link js -->
+    <script src="src/geometric.js"></script>
+
+</body>

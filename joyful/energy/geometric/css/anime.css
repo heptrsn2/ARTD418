@@ -1,0 +1,12 @@
+@font-face {
+  src: url('fonts/Canela-Thin.ttf');
+  font-family: 'canela';
+}
+
+p {
+  padding-top: 50px;
+  padding-left: 50px;
+  font-family: canela;
+  font-size: 40px;
+  color: #EF3E4B;
+}

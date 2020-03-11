@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+@font-face {
+  src: url('fonts/SelfModern.otf');
+  font-family: 'self';
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: #FFF8F5;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  font-family: self;
+}
+
+#red {
+  color: #EF3E4B;
+  font-family: self;
+}
+
+#pink {
+  color: #F275C0
+}
+
+#orange {
+  color: #F48500
+}
+
+#yellow {
+  color: #FCE01A
+}
+
+#yellow {
+  color: #FCE01A
+}
+
+#green {
+    color: #aef44a
+}
+
+#seafoam {
+    color: #6bc394
+}
+
+#blue {
+    color: #6ebded
+}
+
+#cornflower {
+    color: #6495ed
+}
+
+#violet {
+    color: #c381f2
+}
+
+#eggplant {
+    color: #7b47a8
+    font-family: self
+}
+
+
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  font-family: self;
+  top: 15px;
+  right: 35px;
+  }
+}
+</style>
+</head>
+<body>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#" id='red'>energy</a>
+    <a href="#" id='pink'>abundance</a>
+    <a href="#" id='orange'>freedom</a>
+    <a href="#" id='yellow'>harmony</a>
+    <a href="#" id='green'>play</a>
+    <a href="#" id='seafoam'>surprise</a>
+    <a href="#" id='blue'>transcendence</a>
+    <a href="#" id='cornflower'>magic</a>
+    <a href="#" id='violet'>celebration</a>
+    <a href="#" id='eggplant'>renewal</a>
+  </div>
+</div>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+</body>
+</html>

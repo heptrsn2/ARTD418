@@ -24,7 +24,7 @@ function setup() {
         // Animation parameters
         let tmp = anime({
             targets: pathEl,
-            scale: 10,
+            scale: 20,
             duration: 5000,
             loop: true,
             easing: 'easeInOutSine'
@@ -62,3 +62,19 @@ function scrollConvertion(scrollPosition) {
     let nFrames = 6000;
     return Math.floor((scrollPosition / totalHeight) * nFrames);
 }
+
+
+
+const COLORS = [
+  '#EF3E4B',
+  'green',
+  'blue',
+  'yellow',
+  'cyan',
+  'black',
+];
+
+document.onclick = () => {
+  document.body.style.backgroundColor
+    = COLORS[Math.floor(Math.random() * COLORS.length)];
+};
