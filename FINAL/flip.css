@@ -1,7 +1,7 @@
 body{
 	width: 100%;
 	margin: 0;
-	font-family: Futura, Helvetica, sans-serif;
+	font-family: Sofia Pro, Sofia Pro, sans-serif;
 	}
 header{
 	position: fixed;
@@ -24,6 +24,24 @@ section{
 	background-position: center bottom;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	}
+
+h1 {
+	padding-left: 55px;
+	padding-top: 55px;
+}
+p {
+	padding-left: 55px;
+}
+
+.container {
+	  scroll-snap-type: y mandatory;
+		overflow-y: scroll;
+	}
+
+.child {
+	  scroll-snap-align: start;
+
 	}
 
 #a1{background-image: url("images/Joyful_Energy00.png"); height: 700px;}
