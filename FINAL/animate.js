@@ -1,7 +1,11 @@
 anime ({
   targets: 'polygon',
-  scale: 2,
+  scale: (2, {from: 'center'}),
   direction: 'alternate',
-  loop: true,
   easing: 'linear'
 })
+
+anime ({
+  targets: '.st2',
+  translateX: 25
+});
