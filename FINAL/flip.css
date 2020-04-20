@@ -8,19 +8,19 @@ body{
 	height: 100vh;
 	width: 100vw;
 	background: radial-gradient(circle, #C89CD6, #FCA095, #99ADD4, #90D9AF, #FFFC91);
-	background-size: 300% 300%;
+	background-size: 200% 200%;
 	animation: gradient 15s ease infinite;
 }
 
 @keyframes gradient {
 	0% {
-		background-position: 0% 50%;
+		background-position: 0% 0%;
 	}
 	50% {
-		background-position: 100% 50%;
+		background-position: 100% 100%;
 	}
 	100% {
-		background-position: 0% 50%;
+		background-position: 0% 0%;
 	}
 }
 
@@ -39,8 +39,19 @@ h2{
 	font-size: 100px;
 	color: white;
 }
+h3{
+	font-family: IvyMode Thin;
+	color:#F55353;
+}
+#ABUNDANCE{
+	color:#37E882;
+}
+
+#FREEDOM{
+	color:#CA50E1;
+}
+
 p {
-	padding-left: 55px;
 	padding-top: 55px;
 	font-size: 25px;
 	font-family: Sofia Pro Light;
