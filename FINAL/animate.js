@@ -1,17 +1,10 @@
-var circles = document.querySelectorAll('circle');
-
-anime({
-  targets: circles,
-  translateX: anime.stagger(10, {grid: [17, 10], from: 'center', axis: 'x'}),
-});
+var elements = document.querySelectorAll("polygon");
 
 anime ({
-  targets: 'polygon',
-  scale: (2, {from: 'center'}),
+  targets: elements,
+  baseFrequency: 0,
+  scale: (-2),
+  easing: 'easeInOutQuad',
   direction: 'alternate',
-  easing: 'linear'
-})
-
-anime ({
-  targets: '.flower',
+  loop: true
 })
