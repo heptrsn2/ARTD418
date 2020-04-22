@@ -5,7 +5,7 @@ body{
 	}
 
 .header {
-	height: 100vh;
+	height: 200vh;
 	width: 100vw;
 	background: radial-gradient(circle, #C89CD6, #FCA095, #99ADD4, #90D9AF, #FFFC91);
 	background-size: 200% 200%;
@@ -27,22 +27,25 @@ body{
 h1 {
 	font-family: IvyMode Thin;
 	font-weight: 100;
-	font-size: 100%;
-	padding-left: 55px;
-	padding-top: 55px;
+	font-size: 15px;
 	color: white;
 }
 h2{
-	padding-left: 55px;
 	padding-top: 55px;
 	font-family: Sofia Pro Light;
-	font-size: 100px;
+	font-size: 120px;
 	color: white;
 }
 h3{
 	font-family: IvyMode Thin;
 	color:#F55353;
 }
+
+h4{
+	font-family: IvyMode Thin;
+	color: white;
+}
+
 #ABUNDANCE{
 	color:#37E882;
 }

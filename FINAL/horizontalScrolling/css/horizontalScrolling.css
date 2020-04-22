@@ -22,7 +22,7 @@ body {
 
 .horizontal-scroll-wrapper>div {
     /* The height of each div*/
-    width: 1080px;
+    width: 1920px;
     /* The width of each div*/
     height: 1920px;
     /* set the div transformation origin */
@@ -31,4 +31,14 @@ body {
     transform: rotate(90deg) translateY(-1080px);
     /* DELETE the lines below if needed */
     /* border-style: solid; */
+}
+
+.energy {
+  background-color: yellow;
+}
+.abundance {
+  background-color: blue;
+}
+.abundance {
+  background-color: red;
 }
