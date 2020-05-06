@@ -1,44 +1,43 @@
-body {
+
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
-.horizontal-scroll-wrapper {
-    /*REMEMBER WIDTH AND HEIGHT ARE SWITCHED*/
-    /* The height of each div*/
-    width: 1080px;
-    /* The number of divs * the section width*/
-    height: 100vw;
-    /* set the wrapper transformation origin */
-    transform-origin: right top;
-    /* set the width size into the translateY function*/
-    transform: rotate(-90deg) translateY(-1080px);
-    overflow-y: auto;
-    overflow-x: hidden;
-    position: absolute;
-    /* DELETE the lines below if needed */
-    /* border-style: dotted; */
+body {
+    overflow-y: hidden;
+    width: 100%;
+}
+header {
+	height: 100vh;
+	width: 200vw;
+	background: radial-gradient(circle, #C89CD6, #FCA095, #99ADD4, #90D9AF, #FFFC91);
+	background-size: 200vh 200vw;
+	animation: gradient 15s ease infinite;
 }
 
-.horizontal-scroll-wrapper>div {
-    /* The height of each div*/
-    width: 1920px;
-    /* The width of each div*/
-    height: 1920px;
-    /* set the div transformation origin */
-    transform-origin: left top;
-    /* set the wrapper's width size into the translateY function*/
-    transform: rotate(90deg) translateY(-1080px);
-    /* DELETE the lines below if needed */
-    /* border-style: solid; */
+@keyframes gradient {
+	0% {
+		background-position: 0% 0%;
+	}
+	50% {
+		background-position: 100% 100%;
+	}
+	100% {
+		background-position: 0% 0%;
+	}
 }
 
-.energy {
-  background-color: yellow;
+.slider {
+    scroll-snap-type: x mandatory;  
+    display: flex;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
 }
-.abundance {
-  background-color: blue;
-}
-.abundance {
-  background-color: red;
+section {
+    min-width: 100vw;
+    height: 100vh;
+    scroll-snap-align: start;
+    text-align: left;
+    position: relative;
 }

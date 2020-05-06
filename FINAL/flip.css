@@ -33,12 +33,13 @@ h1 {
 h2{
 	padding-top: 55px;
 	font-family: Sofia Pro Light;
-	font-size: 120px;
+	font-size: 40px;
 	color: white;
 }
 h3{
 	font-family: IvyMode Thin;
 	color:#F55353;
+	letter-spacing: 5px;
 }
 
 h4{
@@ -46,12 +47,19 @@ h4{
 	color: white;
 }
 
-#ABUNDANCE{
+#verde{
 	color:#37E882;
 }
 
-#FREEDOM{
+#morado{
 	color:#CA50E1;
+}
+
+#azul{
+	color: #4883E3
+}
+#amarillo{
+	color: #FFD600
 }
 
 p {
