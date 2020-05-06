@@ -28,18 +28,7 @@ anime ({
 });
 
 
-anime ({
-  targets:'line',
-  keyframes: [
-    {scale: 1},
-    {scale: 3}
-  ],
-  scale: 3,
-  easing: 'easeInOutQuad',
-  duration: 2000,
-  direction: 'alternate',
-  loop: true
-});
+
 
 var tl = anime.timeline({
   easing: 'easeOutExpo',
@@ -99,7 +88,11 @@ anime({
             easing: 'easeInOutSine'
         });
 
-
+anime ({
+  targets: '#freedom',
+  translateY: 1000,
+  delay: 150
+})
 
 
 function randomValues() {
