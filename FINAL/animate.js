@@ -89,9 +89,9 @@ anime({
         });
 
 anime ({
-  targets: '#freedom',
-  translateY: 1000,
-  delay: 150
+  targets: '.freedom',
+  scale: 4,
+  delay: anime.stagger(100)
 })
 
 
